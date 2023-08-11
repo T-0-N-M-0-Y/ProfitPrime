@@ -52,7 +52,7 @@ const Register = () => {
                         {errors.password?.type === 'pattern' && <p className="text-red-500">password must have a Capital letter & a Special Charecter</p>}
                     </div>
                     <div className="form-control mt-6">
-                        <input className="btn bg-orange-800 text-white hover:bg-orange-500 border-none w-full" type="submit" value="Sign Up" />
+                        <input className="btn bg-orange-500 text-white hover:bg-orange-800 border-none w-full" type="submit" value="Sign Up" />
                     </div>
                 </form>
             </div>

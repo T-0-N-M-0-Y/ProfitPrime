@@ -22,7 +22,7 @@ const Contact = () => {
             <div>
             <h1 className='lg:text-4xl text-2xl uppercase font-bold pt-10 md:py-20 text-sky-950 text-center'>Ask a question</h1>
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <form ref={form} onSubmit={sendEmail} className="card flex-shrink-0 w-full max-w-xl bg-orange-100">
+                    <form ref={form} onSubmit={sendEmail} className="card flex-shrink-0 w-full max-w-xl bg-base-100">
                         <div className="card-body">
                             <div className="form-control">
                                 <label className="label">
@@ -48,7 +48,7 @@ const Contact = () => {
                                 </label>
                                 <textarea type="text" name="message" className="textarea textarea-bordered textarea-lg w-full max-w-xl" />
                             </div>
-                            <input className='bg-orange-700 text-white hover:bg-orange-900 p-3 rounded-lg mt-5 hover:text-white' type="submit" value="Send" />
+                            <input className='bg-green-600 text-white hover:bg-green-900 p-3 rounded-lg mt-5 hover:text-white uppercase' type="submit" value="Send" />
                         </div>
                     </form>
                 </div>
